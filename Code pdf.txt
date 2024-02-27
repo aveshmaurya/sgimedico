@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sgi Medico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="reg.html">Registration</a>
+        <a href="online.html">Online Consultancy</a>
+    </nav>
+    <div class="home">
+        <img class="home_img" src="./home.png">
+        <b>
+            <p class="home_p">SGI MEDICO</p>
+            <p class="home_p">MEDICAL</p>
+            <p class="home_p">LANDING</p>
+            <p class="home_p">PAGE<br>
+            <p class="link">www.sgimedico.com</p>
+            </p>
+        </b>
+    </div>
+    <div class="intro">
+        <p class="intro_head"><b>Sgi Medico - An Initiative For Hospitals</b></p>
+        <p class="intro_detail">SGI Medico - An Initiative For Hospitals is a medical hospital representation where you
+            can
+            get doctor’s information including with the doctor’s experience, you can also register online or you can
+            apply for online appointment and can get login id and password for future purposes...
+        </p>
+        <img class="intro_img" src="./intro.png">
+    </div>
+    <div class="icon">
+        <p class="intro_head"><b>Home</b></p><a href="index.html"><img class="icon_img" src="./home_logo.png"></a>
+    </div>
+    <div class="icon">
+        <p class="intro_head"><b>Login</b></p><a href="login.html"><img class="icon_img" src="./desktop logo.png"></a>
+    </div>
+    <div class="icon">
+        <p class="intro_head"><b>Regitration</b></p><a href="reg.html"><img class="icon_img" src="./doc logo.png"></a>
+    </div>
+    <div class="icon">
+        <p class="intro_head"><b>Online Cosultancy</b></p><a href="online.html"><img class="icon_img"
+                src="./upload logo.png"></a>
+    </div>
+    <div class="home" style="margin-left:5vw ;">
+        <img class="bottom_img" src="./future.png">
+        <p class="bottom_detail">While talking about the future of the SGI Medico - An Initiative For Hospitals, we will be working on
+            the better communication in between the
+            doctor and patient and enhanced problem
+            detection using machine learning and AI
+        </p>
+    </div>
+    <div class="bt_nav">
+        <h6 style="color: black; font-weight: 400; opacity: 0.5;"> © SGI MEDICO 2024.&nbsp All rights reserved</h3>
+    </div>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="reg.html">Registration</a>
+        <a href="online.html">Online Consultancy</a>
+    </nav>
+    <div class="login">
+        <form action="#" method="get">
+            <p>Username : &nbsp <input type="text" placeholder="@your_name"></p>
+            <p>Password : &nbsp <input type="password" placeholder="*******"></p>
+            <p><input type="submit"></input>
+            <input type="reset"></input>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Consultancy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="reg.html">Registration</a>
+        <a href="online.html">Online Consultancy</a>
+    </nav>
+    <div class="login">
+        <form action="#" method="get">
+            <center><img src="qr-code.png" alt="qr-code" width="200px"><br>
+                Scan The Above Qr -code
+                <p><input type="submit"></input>
+                <input type="reset"></input>
+                </p>
+            </center>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+nav {
+    height: 10vh;
+    background-color: rgba(265, 265, 265, 0.7);
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    backdrop-filter: blur(100px);
+    color: blue;
+    font-size: 1.5em;
+    text-shadow: 0px 0px 10px white;
+    box-shadow: 0px 1px 5px rgb(230, 230, 230);
+    font-size: 16px;
+}
+
+.home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 10vh;
+}
+
+.home_img {
+    width: 50%;
+}
+
+.home_p {
+    color: blue;
+    line-height: 30%;
+    font-size: 4em;
+    text-align: right;
+}
+
+.link {
+    color: black;
+    line-height: 10%;
+    font-size: 4vh;
+    text-align: right;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro_detail {
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0px 10vw;
+    margin-top: 0px;
+}
+
+.intro_head {
+    color: blue;
+    text-align: center;
+    font-size: 2em;
+    padding: 0px 10vw;
+}
+
+.intro_img {
+    width: 100%;
+}
+
+.icon {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon_img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.bottom_detail {
+    color: black;
+    text-align: right;
+    font-size: 2em;
+    padding: 0px 10vw;
+    margin-top: 0px;
+}
+
+.bottom_img {
+    padding: 1em;
+    width: 50%;
+}
+
+.bt_nav {
+    height: 8vh;
+    background-color: rgba(265, 265, 265, 0.6);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(100px);
+    color: blue;
+    font-size: 1.5em;
+    text-shadow: 0px 0px 10px white;
+    box-shadow: 0px -1px 5px rgb(230, 230, 230);
+}
+
+.login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: 2px solid rgba(0, 0, 265, 1);
+    padding: 1em;
+    border-radius: 0.5em;
+    color: blue;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p {
+    text-align: left;
+}
+
+input,
+textarea {
+    border: 2px solid rgba(0, 0, 265, 0.3);
+    border-radius: 0.5em;
+    padding: 0.5em;
+    color: blue;
+    width: 95%;
+    margin: 0.5em;
+    background-color: rgba(0, 0, 265, 0.04);
+}
+
+a {
+    color: blue;
+}
+
+@media (width<600px) {
+    .home {
+        flex-direction: column;
+    }
+
+    .home_p {
+        color: blue;
+        line-height: 30%;
+        font-size: 2em;
+        text-align: right;
+    }
+
+    .home_img {
+        width: 90%;
+    }
+
+    .bottom_img {
+        width: 90%;
+    }
+}
